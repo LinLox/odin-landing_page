@@ -8,5 +8,83 @@
 * {
     margin: 0;
     padding: 0;
-    /* font-family: 'Droid Sans', sans-serif; */
+    font-family: 'Roboto', sans-serif;
 }
+
+header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    height: 60px;
+}
+
+.hero {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    height: 300px;
+}
+
+.info {
+    background-color: white;
+    height: 100px;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+
+    /* width: auto; */
+    /* display: flex; */
+    /* text-align: center; */
+}
+
+.info1 {
+    height: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.infoimgs {
+    min-width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.info1 img {
+    height: 100px;
+    width: 100px;
+    border: 3px solid #3882F6;
+}
+
+
+.quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    height: 300px;
+}
+
+.quotetext {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.signup {
+    background-color: white;
+    height: 250px;
+}
+
+.signup-box {
+    background-color: #3882F6;
+}
+
+footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
