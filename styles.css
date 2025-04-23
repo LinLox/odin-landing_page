@@ -53,12 +53,40 @@ a:active {
     color: #3882F6;
 }
 
+/* button */
+.button-signup {
+    border: 2px solid #3882F6;
+    background-color: #3882F6;
+    padding: 5px 20px;
+    color: #F9FAF8;
+    border-radius: 7px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
 /* hero section */
 
 .hero {
     background-color: #1F2937;
     color: #F9FAF8;
     height: 300px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.heroimg {
+    background-color: gray;
+    width: 400px;
+    height: 200px;
 }
 
 /* information section */
