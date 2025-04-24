@@ -143,6 +143,40 @@ a.button-signup:hover {
 
 /* quote section */
 
+.quotes {
+    border: 1px solid red;
+    background-color: #E5E7EB;
+    min-height: 325px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .quotebox {
+    width: 600px;
+} */
+
+.quotebox {
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.quote1 q {
+    border: 1px solid red;
+    font-size: 36px;
+    font-style: italic;
+}
+
+
+.quote1 cite {
+    border: 1px solid red;
+    text-decoration: none;
+    font-weight: 900;
+    align-self: flex-end;
+
+}
 
 
 /* signup section */
