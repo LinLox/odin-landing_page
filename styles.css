@@ -14,6 +14,7 @@
     font-weight: 400;
     font-style: normal;
     font-variation-settings: "wdth" 100;
+    flex-flow: wrap;
 }
 
 /* header */
@@ -124,7 +125,7 @@ a.button-signup:hover {
 .heroimg img {
     background-color: gray;
     border-radius: 7px;
-    min-width: 400px;
+    width: 400px;
     max-height: 225px;
 }
 
@@ -182,6 +183,7 @@ a.button-signup:hover {
     text-align: justify;
     min-height: 300px;
     display: flex;
+    flex-flow: wrap;
     justify-content: center;
     align-items: center;
 }
