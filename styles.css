@@ -174,33 +174,31 @@ h1 {
 /* quote section */
 
 .quotes {
-    border: 1px solid red;
     background-color: #E5E7EB;
-    min-height: 325px;
+    color: #1F2937;
+    text-align: justify;
+    min-height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .quotebox {
-    max-width: 800px;
+    max-width: 700px;
     display: flex;
     flex-direction: column;
 }
 
-.quote1 q {
-    border: 1px solid red;
+.quotebox q {
     font-size: 36px;
     font-weight: 100;
-    font-style: italic;
+    font-style: light italic;
 }
 
-.quote1 cite {
-    border: 1px solid red;
+.quotebox cite {
     text-decoration: none;
     font-weight: 900;
     align-self: flex-end;
-
 }
 
 /* signup section */
@@ -219,9 +217,8 @@ h1 {
 footer {
     background-color: #1F2937;
     color: #E5E7EB;
-    height: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    min-height: 80px;
+    text-align: center;
+    align-content: center;
 }
 
