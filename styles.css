@@ -143,17 +143,9 @@ a.button-signup:hover {
 
 /* quote section */
 
-.quote {
-    background-color: #E5E7EB;
-    color: #1F2937;
-    height: 300px;
-}
 
-.quotetext {
-    font-size: 36px;
-    font-style: italic;
-    color: #1F2937;
-}
+
+/* signup section */
 
 .signup {
     background-color: white;
@@ -163,6 +155,8 @@ a.button-signup:hover {
 .signup-box {
     background-color: #3882F6;
 }
+
+/* footer */
 
 footer {
     background-color: #1F2937;
